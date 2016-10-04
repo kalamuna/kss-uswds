@@ -1,10 +1,10 @@
 # Under Construction
 
-# KSS Foundation [![NPM version](https://img.shields.io/npm/v/kss-foundation.svg)](https://www.npmjs.org/package/kss-foundation)
+# KSS USWDS [![NPM version](https://img.shields.io/npm/v/kss-uswds.svg)](https://www.npmjs.org/package/kss-uswds)
 
-> [KSS Foundation](https://github.com/kalamuna/kss-foundation) is a [Knyle Style Sheet](http://warpspire.com/kss/) style guide for [Foundation](foundation.zurb.com).
+> [KSS USWDS](https://github.com/kalamuna/kss-uswds) is a [Knyle Style Sheet](http://warpspire.com/kss/) style guide for [USWDS](https://github.com/18F/web-design-standards).
 
-[![Build Status](https://travis-ci.org/kalamuna/kss-foundation.svg?branch=master)](https://travis-ci.org/kalamuna/kss-foundation) [![Dependency Status](https://david-dm.org/kalamuna/kss-foundation.svg)](https://david-dm.org/kalamuna/kss-foundation) [![devDependency Status](https://david-dm.org/kalamuna/kss-foundation/dev-status.svg)](https://david-dm.org/kalamuna/kss-foundation#info=devDependencies)
+[![Build Status](https://travis-ci.org/kalamuna/kss-uswds.svg?branch=master)](https://travis-ci.org/kalamuna/kss-uswds) [![Dependency Status](https://david-dm.org/kalamuna/kss-uswds.svg)](https://david-dm.org/kalamuna/kss-uswds) [![devDependency Status](https://david-dm.org/kalamuna/kss-uswds/dev-status.svg)](https://david-dm.org/kalamuna/kss-uswds#info=devDependencies)
 
 ## Dependencies
 
@@ -21,10 +21,10 @@
 2. Render the site using the following command:
 
   ``` bash
-  kss-node node_modules/kss-foundation/styleguide out
+  kss-node node_modules/kss-uswds/styleguide out
   ```
 
-  * `node_modules/kss-foundation/styleguide` is the directory to which KSS Styleguide to use
+  * `node_modules/kss-uswds/styleguide` is the directory to which KSS Styleguide to use
   * `out` represents where the rendered styleguide should be output
 
 ## Development

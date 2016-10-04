@@ -1,0 +1,7 @@
+{
+  "source": "styleguide",
+  "builder": "node_modules/kss/builder/twig",
+  "destination": "out",
+  "css": "main.css",
+  "js": "main.js"
+}

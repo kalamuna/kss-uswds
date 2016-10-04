@@ -1,0 +1,9 @@
+/*
+KSS Fixes
+
+Provides a few fixes to the KSS template.
+*/
+
+.kss-main button {
+  width: auto;
+}

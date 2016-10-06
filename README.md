@@ -1,5 +1,3 @@
-# Under Construction
-
 # KSS USWDS [![NPM version](https://img.shields.io/npm/v/kss-uswds.svg)](https://www.npmjs.org/package/kss-uswds)
 
 > [KSS USWDS](https://github.com/kalamuna/kss-uswds) is a [Knyle Style Sheet](http://warpspire.com/kss/) style guide for [USWDS](https://github.com/18F/web-design-standards).

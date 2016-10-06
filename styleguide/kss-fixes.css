@@ -7,3 +7,11 @@ Provides a few fixes to the KSS template.
 .kss-main button {
   width: auto;
 }
+
+.grid-example .usa-grid > * {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #ffffff;
+  padding: 1em;
+  background: #727272;
+}

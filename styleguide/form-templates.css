@@ -1,0 +1,37 @@
+/*
+Form Templates
+
+Patterns for some of the most commonly used forms on government websites
+
+Styleguide: USWDS.form-templates
+*/
+
+/*
+Name form
+
+A standard template for collecting a person’s full name
+
+Markup: form-templates.name-form.twig
+
+Styleguide: USWDS.form-templates.name-form
+*/
+
+/*
+Address form
+
+A standard template for entering a U.S. mailing or shipping address
+
+Markup: form-templates.address-form.twig
+
+Styleguide: USWDS.form-templates.address-form
+*/
+
+/*
+Sign-in form
+
+A template for signing a user into a website or app
+
+Markup: form-templates.address-form.twig
+
+Styleguide: USWDS.form-templates.address-form
+*/

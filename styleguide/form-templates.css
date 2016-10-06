@@ -1,7 +1,7 @@
 /*
 Form Templates
 
-Patterns for some of the most commonly used forms on government websites
+<p class="usa-font-lead">Patterns for some of the most commonly used forms on government websites.</p>
 
 Styleguide: USWDS.form-templates
 */
@@ -9,7 +9,7 @@ Styleguide: USWDS.form-templates
 /*
 Name form
 
-A standard template for collecting a person’s full name
+<p class="usa-font-lead">A standard template for collecting a person’s full name.</p>
 
 Markup: form-templates.name-form.twig
 
@@ -19,7 +19,7 @@ Styleguide: USWDS.form-templates.name-form
 /*
 Address form
 
-A standard template for entering a U.S. mailing or shipping address
+<p class="usa-font-lead">A standard template for entering a U.S. mailing or shipping address.</p>
 
 Markup: form-templates.address-form.twig
 
@@ -29,7 +29,7 @@ Styleguide: USWDS.form-templates.address-form
 /*
 Sign-in form
 
-A template for signing a user into a website or app
+<p class="usa-font-lead">A template for signing a user into a website or app.</p>
 
 Markup: form-templates.address-form.twig
 

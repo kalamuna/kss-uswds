@@ -13,3 +13,47 @@ Markup: typography.typefaces.twig
 
 Styleguide: USWDS.typography.typefaces
 */
+
+/*
+Links
+
+Links lead users to a different page or further information.
+
+Markup:
+<p><a href="javascript:void(0);">This</a> is a text link on a light background.</p>
+<p><a class="usa-color-text-visited" href="javascript:void(0);">This</a> is a visited link.</p>
+<p>This is a link that goes to an <a class="usa-external_link" href="http://media.giphy.com/media/8sgNa77Dvj7tC/giphy.gif">external website</a>.</p>
+<div class="usa-background-dark">
+<p><a href="javascript:void(0);">This</a> is a text link on a dark background.</p>
+</div>
+
+Styleguide: USWDS.typography.links
+*/
+
+/*
+Lists
+
+Lists organize written information for users.
+
+Markup:
+<div class="usa-grid-full">
+    <div class="usa-width-one-third">
+        <h6 class="usa-heading-alt">Unordered list</h6>
+        <ul>
+            <li>Unordered list item</li>
+            <li>Unordered list item</li>
+            <li>Unordered list item</li>
+        </ul>
+    </div>
+    <div class="usa-width-one-third">
+        <h6 class="usa-heading-alt mt0">Ordered list</h6>
+        <ol>
+            <li>Ordered list item</li>
+            <li>Ordered list item</li>
+            <li>Ordered list item</li>
+      </ol>
+    </div>
+</div>
+
+Styleguide: USWDS.typography.lists
+*/

@@ -38,14 +38,25 @@ gulp.task('kss', ['clean'], function(cb) {
 /**
  * Sets up Bootstrap CSS for KSS.
  */
-gulp.task('kss-uswds-css', ['kss'], function() {
+gulp.task('kss-uswds-css', ['kss', 'kss-uswds-fonts'], function() {
   var sources = [
     'node_modules/uswds/dist/css/uswds.css',
     'styleguide/kss-fixes.css'
   ];
   return gulp.src(sources)
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('out/'));
+    .pipe(gulp.dest('out/kss-assets/'));
+});
+
+/**
+ * Sets up Bootstrap CSS for KSS.
+ */
+gulp.task('kss-uswds-fonts', ['kss'], function() {
+  var sources = [
+    'node_modules/uswds/dist/fonts/*'
+  ];
+  return gulp.src(sources)
+    .pipe(gulp.dest('out/fonts/'));
 });
 
 /**

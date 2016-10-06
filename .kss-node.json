@@ -2,6 +2,6 @@
   "source": "styleguide",
   "builder": "node_modules/kss/builder/twig",
   "destination": "out",
-  "css": "main.css",
+  "css": "kss-assets/main.css",
   "js": "main.js"
 }

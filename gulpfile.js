@@ -38,7 +38,7 @@ gulp.task('kss', ['clean'], function(cb) {
 /**
  * Sets up Bootstrap CSS for KSS.
  */
-gulp.task('kss-uswds-css', ['kss', 'kss-uswds-fonts'], function() {
+gulp.task('kss-uswds-css', ['kss', 'kss-uswds-fonts', 'kss-uswds-img'], function() {
   var sources = [
     'node_modules/uswds/dist/css/uswds.css',
     'styleguide/kss-fixes.css'
@@ -49,7 +49,7 @@ gulp.task('kss-uswds-css', ['kss', 'kss-uswds-fonts'], function() {
 });
 
 /**
- * Sets up Bootstrap CSS for KSS.
+ * Sets up USWDS Fonts for KSS.
  */
 gulp.task('kss-uswds-fonts', ['kss'], function() {
   var sources = [
@@ -57,6 +57,17 @@ gulp.task('kss-uswds-fonts', ['kss'], function() {
   ];
   return gulp.src(sources)
     .pipe(gulp.dest('out/fonts/'));
+});
+
+/**
+ * Sets up USWDS Images for KSS.
+ */
+gulp.task('kss-uswds-img', ['kss'], function() {
+  var sources = [
+    'node_modules/uswds/dist/img/*'
+  ];
+  return gulp.src(sources)
+    .pipe(gulp.dest('out/img/'));
 });
 
 /**

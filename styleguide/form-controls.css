@@ -5,3 +5,53 @@ Form Controls
 
 Styleguide: USWDS.form-controls
 */
+
+/*
+Text Input
+
+<p class="usa-font-lead">Text inputs allow people to enter any combination of letters, numbers, or symbols of their choosing (unless otherwise restricted). Text input boxes can span single or multiple lines.</p>
+
+Markup: form-controls.text-input.twig
+
+Styleguide: USWDS.form-controls.text-input
+*/
+
+/*
+Radio Buttons
+
+<p class="usa-font-lead">Radio buttons allow users to see all available choices at once and select exactly one option.</p>
+
+Markup: form-controls.radio-buttons.twig
+
+Styleguide: USWDS.form-controls.radio-buttons
+*/
+
+/*
+Dropdown
+
+<p class="usa-font-lead">A dropdown allows users to select one option from a list.</p>
+
+Markup: form-controls.dropdown.twig
+
+Styleguide: USWDS.form-controls.dropdown
+*/
+
+/*
+Checkboxes
+
+<p class="usa-font-lead">Checkboxes allow users to select one or more options from a visible list.</p>
+
+Markup: form-controls.checkboxes.twig
+
+Styleguide: USWDS.form-controls.checkboxes
+*/
+
+/*
+Date Input
+
+<p class="usa-font-lead">Three text fields are the easiest way for users to enter most dates.</p>
+
+Markup: form-controls.date-input.twig
+
+Styleguide: USWDS.form-controls.date-input
+*/

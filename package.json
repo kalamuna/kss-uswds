@@ -1,12 +1,13 @@
 {
   "name": "kss-uswds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A KSS template and style guide for USWDS.",
   "author": "Rob Loach (http://github.com/robloach)",
   "repository": {
     "type": "git",
     "url": "https://github.com/kalamuna/kss-uswds"
   },
+  "main": "kss-uswds.css",
   "bugs": {
     "url": "https://github.com/kalamuna/kss-uswds/issues"
   },

@@ -87,7 +87,7 @@ gulp.task('kss-uswds-js', ['kss'], function() {
  */
 gulp.task('htmlhint', ['kss-uswds'], function () {
   var htmlhint = require('gulp-htmlhint');
-  return gulp.src(['./out/*.html'])
+  return gulp.src(['./out/*.html5'])
     .pipe(htmlhint())
     .pipe(htmlhint.reporter())
     .pipe(htmlhint.failReporter())
